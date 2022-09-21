@@ -38,8 +38,7 @@
 //     console.log('a user connected')
 // })
 
-
-
+// server
 
 // app.get('/', (req, res) => {
 //     res.send('<h1>Hello world</h1>')
@@ -85,6 +84,5 @@ io.on("connection", (socket) => {
 server.listen(3001, () => {
     console.log("SERVER RUNNING")
 });
-
 
 
